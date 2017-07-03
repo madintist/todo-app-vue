@@ -7,6 +7,19 @@
   </ul>
 </template>
 
-<script></script>
+<script>
+  export default {
+    name: 'todo-list'
+  };
+</script>
 
-<styles scoped><styles>
+<style scoped>
+li {
+    display: block;
+    position: relative;
+}
+ul {
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+</style>
