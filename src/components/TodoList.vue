@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <todo-list-item v-for="item in todoItems" :todo-item="item" :key="item.title"></todo-list-item>
+    <todo-list-item v-for="item in todoItems" :todo-item="item" :key="item.id"></todo-list-item>
   </ul>
 </template>
 
@@ -15,10 +15,22 @@
     data () {
       return {
         todoItems: [
-          {title: 'Item 1'},
-          {title: 'Item 2'},
-          {title: 'Item 3'},
-          {title: 'Item 4'}
+          {
+            id: 0,
+            title: 'Item 1'
+          },
+          {
+            id: 1,
+            title: 'Item 2'
+          },
+          {
+            id: 2,
+            title: 'Item 3'
+          },
+          {
+            id: 3,
+            title: 'Item 4'
+          }
         ]
       };
     }
