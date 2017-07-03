@@ -1,12 +1,17 @@
 <template>
   <div class="todo-container">
-    <h1>{{ headerText }}</h1>
+    <page-header :header-text="headerText"></page-header>
   </div>
 </template>
 
 <script>
+  import PageHeader from './PageHeader';
+
   export default {
-    name: 'hello',
+    name: 'todo-container',
+    components: {
+      'page-header': PageHeader
+    },
     data () {
       return {
         headerText: 'Todo List'
