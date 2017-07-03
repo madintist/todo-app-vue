@@ -1,4 +1,11 @@
-<template></template>
+<template>
+  <ul class="list-group">
+    <li class="list-group-item">1</li>
+    <li class="list-group-item">2</li>
+    <li class="list-group-item">3</li>
+    <li class="list-group-item">4</li>
+  </ul>
+</template>
 
 <script></script>
 
