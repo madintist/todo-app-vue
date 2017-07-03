@@ -9,7 +9,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      headerText: 'Hello World!'
+      headerText: 'Todo List'
     };
   }
 };
