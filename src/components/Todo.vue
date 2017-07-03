@@ -1,6 +1,6 @@
 <template>
   <div class="todo-container">
-    <h1>{{ msg }}</h1>
+    <h1>{{ headerText }}</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Hello World!'
+      headerText: 'Hello World!'
     };
   }
 };
