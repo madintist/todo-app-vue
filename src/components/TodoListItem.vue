@@ -2,6 +2,7 @@
   <li>
     {{ todoItem.title }}
     <!-- Complete button here -->
+    <complete-item-button></complete-item-button>
   </li>
 </template>
 
