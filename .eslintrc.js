@@ -1,6 +1,9 @@
 // http://eslint.org/docs/user-guide/configuring
 
 module.exports = {
+  extends: {
+    "semistandard"
+  },
   root: true,
   parser: 'babel-eslint',
   parserOptions: {
