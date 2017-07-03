@@ -1,5 +1,5 @@
 <template>
-  <button :target-item-id="targetItem.id" @click="completeItem">
+  <button @click="completeItem">
     <span></span>
   </button>
 </template>
@@ -11,7 +11,8 @@
       'target-item'
     ],
     methods: {
-      completeItem (event) {
+      completeItem () {
+        this.targetItem.complete = true;
       }
     }
   };

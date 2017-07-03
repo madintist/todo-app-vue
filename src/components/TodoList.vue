@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <todo-list-item v-for="item in todoItems" :todo-item="item" :key="item.id"></todo-list-item>
+    <todo-list-item v-for="item in incompleteItems" :todo-item="item" :key="item.id"></todo-list-item>
   </ul>
 </template>
 
@@ -11,6 +11,13 @@
     name: 'todo-list',
     components: {
       'todo-list-item': TodoListItem
+    },
+    computed: {
+      incompleteItems () {
+        return this.todoItems.filter(function (item) {
+          return !item.complete;
+        });
+      }
     },
     data () {
       return {
