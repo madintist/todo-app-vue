@@ -8,7 +8,7 @@
     props: [
       'todo-item'
     ]
-  }
+  };
 </script>
 
 <style scoped>
@@ -26,4 +26,3 @@ li:first-child {
     border-top-right-radius: 4px;
 }
 </style>
-
