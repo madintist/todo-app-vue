@@ -22,9 +22,11 @@
 
 <style scoped>
 li {
+    align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: -1px;
     padding: 10px 15px;
     position: relative;
