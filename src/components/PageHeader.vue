@@ -21,5 +21,7 @@ h1 {
     margin: 0.67em 0;
     margin-bottom: 10px;
     margin-top: 20px;
+    text-align: center;
+    width: 100%;
 }
 </style>
