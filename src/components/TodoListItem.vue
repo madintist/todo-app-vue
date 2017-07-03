@@ -6,8 +6,13 @@
 </template>
 
 <script>
+  import CompleteItemButton from './CompleteItemButton';
+
   export default {
     name: 'todo-list-item',
+    components: {
+      'complete-item-button': CompleteItemButton
+    },
     props: [
       'todo-item'
     ]
