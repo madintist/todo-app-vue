@@ -1,12 +1,19 @@
 <template>
-  <button>
+  <button :target-item-id="targetItem.id" @click="completeItem">
     <span></span>
   </button>
 </template>
 
 <script>
   export default {
-    name: 'complete-item-button'
+    name: 'complete-item-button',
+    props: [
+      'target-item'
+    ],
+    methods: {
+      completeItem (event) {
+      }
+    }
   };
 </script>
 
