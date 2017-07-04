@@ -1,6 +1,6 @@
 <template>
   <button @click="completeItem">
-    <span></span>
+    <i class="fa fa-check" aria-hidden="true"></i>
   </button>
 </template>
 
@@ -65,21 +65,5 @@ button:hover {
     border-color: #398439;
     color: #fff;
     text-decoration: none;
-}
-
-span {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-span::before {
-    content: "\e013";
 }
 </style>
