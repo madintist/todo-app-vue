@@ -11,7 +11,7 @@
       'target-item'
     ],
     methods: {
-      completeItem () {
+      completeItem () 
         this.targetItem.complete = true;
       }
     }

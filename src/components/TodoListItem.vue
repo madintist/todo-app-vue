@@ -26,6 +26,7 @@ li {
     background-color: #fff;
     border: 1px solid #ddd;
     display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     justify-content: space-between;
     margin-bottom: -1px;
     padding: 10px 15px;
